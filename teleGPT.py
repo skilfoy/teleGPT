@@ -3,8 +3,7 @@
 
 import openai
 import os
-import telegram
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram.ext import Updater, MessageHandler, Filters
 from dotenv import load_dotenv
 
 load_dotenv()
